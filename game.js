@@ -2,6 +2,23 @@ const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
 
 
+
+function restart()
+{
+
+var x=("O progresso atual será perdido");
+var r=confirm("Deseja recomeçar?");
+if (r==true)
+  {
+  location.reload();
+  }
+else
+  {
+  
+  }
+document.getElementById("demo").innerHTML=x;
+}
+
 const jump = () => {
    mario.classList.add('jump');
 
@@ -31,6 +48,7 @@ const loop = setInterval(() => {
         mario.style.width = '75px'
         mario.style.marginLeft = '50px'
 
+        
         clearInterval(loop);
 
     }
