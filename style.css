@@ -1,8 +1,40 @@
 * 
 {
-    margin: 0;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
     padding: 0;
     box-sizing: border-box;
+}
+
+.div1 {
+
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    padding: 0;
+
+}
+.btn {
+
+    font-size: larger;
+    margin-top: 2px;
+    margin-right: 4px;
+    background-color: rgb(0, 252, 13);
+    color: rgb(25, 80, 42);
+    border-width: thick;
+    border-color:rgb(32, 131, 13);
+    width: 242px;
+    float: left;
+    
+    padding-left: 0;
+
 }
 
 .clouds{
@@ -19,7 +51,7 @@
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(rgb(144, 252, 234), rgb(204, 237, 245))
+    background: linear-gradient(rgb(34, 179, 236), rgb(176, 255, 255))
 }
 
 .pipe{
